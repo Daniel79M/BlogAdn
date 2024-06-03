@@ -31,29 +31,30 @@ if (isset($_COOKIE['username'])) {
         ?>
         <form action="/BlogAdn/processing/authentification.php" method="POST">
             <div class="container">
-            <div class="mb-3">
-            <label for="email">Adresse Email</label>
-            <input type="email" name="email" id="email" placeholder="Saisir votre adresse email" class="form-control" required>
-            <div>
+                <div class="mb-3">
+                <label for="email">Adresse Email</label>
+                <input type="email" name="email" id="email" placeholder="Saisir votre adresse email" class="form-control" required>
+                <div>
 
-            <div class="mb-3">
-            <label for="username">Nom d'utilisateur</label>
-            <input type="text" name="username" id="username" placeholder="Saisir le nom d'utilisateur ou le pseudonyme ici" minlength="5" maxlength="20" class="form-control" required>
-            </div>
-           
-            <div class="mb-3">
-            <label for="password">Mot de passe</label>
-            <input type="password" name="password" id="password" placeholder="Saisir votre mot de passe ici" minlength="8" maxlength="20" class="form-control" required>
-            </div>
-            
-            <div class="mb-3">
-            <label for="confirmation">Confirmation de mot de passe</label>
-            <input type="password" name="confirmation" id="confirmation" placeholder="Confirmez votre mot de passe ici" minlength="8" maxlength="20" class="form-control" required>
-            </div>
-            
-            <div class="col-12">
-            <button type="submit" class="btn btn-primary">S'inscrire</button>
-            <button type="reset" class="btn btn-primary">Annulé</button>
+                <div class="mb-3">
+                <label for="username">Nom d'utilisateur</label>
+                <input type="text" name="username" id="username" placeholder="Saisir le nom d'utilisateur ou le pseudonyme ici" minlength="5" maxlength="20" class="form-control" required>
+                </div>
+                
+                <div class="mb-3">
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password" placeholder="Saisir votre mot de passe ici" minlength="8" maxlength="20" class="form-control" required>
+                </div>
+                
+                <div class="mb-3">
+                <label for="confirmation">Confirmation de mot de passe</label>
+                <input type="password" name="confirmation" id="confirmation" placeholder="Confirmez votre mot de passe ici" minlength="8" maxlength="20" class="form-control" required>
+                </div>
+                
+                <div class="col-12">
+                <button type="submit" class="btn btn-primary">S'inscrire</button>
+                <button type="reset" class="btn btn-primary">Annulé</button>
+                </div>
             </div>
 
             <p>Déjà un compte? Connectez-vous en cliquant <a href="/BlogAdn/pages/connexion.php?page=connexion">ici</a></p>
